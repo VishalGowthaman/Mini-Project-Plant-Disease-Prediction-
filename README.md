@@ -298,6 +298,9 @@ for images_batch, labels_batch in test_ds.take(1):
 ### Predicted Plant
 ![image](https://github.com/VishalGowthaman/Mini-Project-Plant-Disease-Prediction-/assets/94165380/e053df99-8129-4d1a-b8bd-41e104504865)
 
+## Result:
+Thus we have developed a CNN model that can accurately identify and classify different diseases that affect crops.
+
 
 
 
