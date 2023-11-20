@@ -17,3 +17,6 @@ This project aims to develop a CNN model that can accurately identify and classi
 4.Activation Functions:
   
   Non-linear activation functions, such as ReLU (Rectified Linear Unit), introduce non-linearity to the model, allowing it to learn complex relationships in the data. ReLU is commonly used in CNNs for its simplicity and effectiveness.
+## Requirements:
+1.Image Dataset.
+2.Python 3.x for project development.
