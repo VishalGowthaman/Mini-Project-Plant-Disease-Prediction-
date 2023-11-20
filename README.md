@@ -21,3 +21,6 @@ This project aims to develop a CNN model that can accurately identify and classi
 1.Image Dataset.
 
 2.Python 3.x for project development.
+## Flow Chart:
+![image](https://github.com/VishalGowthaman/Mini-Project-Plant-Disease-Prediction-/assets/94165380/3d7e9885-d47f-4da0-8291-c5070bd910ce)
+
