@@ -1,0 +1,1 @@
+# Mini-Project-Plant-Disease-Prediction-
