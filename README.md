@@ -27,18 +27,23 @@ This project aims to develop a CNN model that can accurately identify and classi
 1.Data Loading and Preprocessing:
 
 Load image data from the "PlantVillage" directory using image_dataset_from_directory.
+
 Split the dataset into training, validation, and test sets.
+
 Perform data augmentation on the training set using random flips and rotations.
 
 2.Model Construction:
 
 Build a CNN model using the Sequential API with convolutional layers, max-pooling layers, flattening layer, and dense layers.
+
 Use ReLU activation functions for convolutional layers and softmax activation for the output layer.
+
 Compile the model with the Adam optimizer and Sparse Categorical Crossentropy loss.
 
 3.Model Training:
 
 Train the model using the training dataset and validate it on the validation dataset.
+
 Monitor and record accuracy and loss metrics during training.
 
 4.Model Evaluation:
@@ -52,7 +57,9 @@ Plot training and validation accuracy and loss over epochs using Matplotlib.
 6.Transfer Learning with VGG16:
 
 Implement transfer learning using the VGG16 pre-trained model from Keras applications.
+
 Freeze the layers of the pre-trained model and add new dense layers for classification.
+
 Compile and train the new model on the dataset.
 
 7.Transfer Learning Model Evaluation:
