@@ -26,11 +26,11 @@ This project aims to develop a CNN model that can accurately identify and classi
 ## Algorithm:
 1.Data Loading and Preprocessing:
 
-Load image data from the "PlantVillage" directory using image_dataset_from_directory.
+-Load image data from the "PlantVillage" directory using image_dataset_from_directory.
 
-Split the dataset into training, validation, and test sets.
+-Split the dataset into training, validation, and test sets.
 
-Perform data augmentation on the training set using random flips and rotations.
+-Perform data augmentation on the training set using random flips and rotations.
 
 2.Model Construction:
 
