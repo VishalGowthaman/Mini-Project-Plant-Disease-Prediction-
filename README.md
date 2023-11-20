@@ -282,4 +282,25 @@ for images_batch, labels_batch in test_ds.take(1):
     batch_prediction = model1.predict(images_batch)
     print("predicted label:",class_names[np.argmax(batch_prediction[0])])
 ```
+## Output:
+### Visualizing some Images
+![image](https://github.com/VishalGowthaman/Mini-Project-Plant-Disease-Prediction-/assets/94165380/6e151922-165c-43dc-9974-e3929eee7d3f)
+
+### The CNN Model
+![image](https://github.com/VishalGowthaman/Mini-Project-Plant-Disease-Prediction-/assets/94165380/a7b1bfc0-cca6-4212-a1d1-9d5c784cb39b)
+
+### Training and Validation Accuracy
+![image](https://github.com/VishalGowthaman/Mini-Project-Plant-Disease-Prediction-/assets/94165380/e09b2c21-9ba7-491d-a4ae-615db142326c)
+
+### Training and Validation Loss
+![image](https://github.com/VishalGowthaman/Mini-Project-Plant-Disease-Prediction-/assets/94165380/3fec6641-ce4b-4ed2-bc59-740b7a0910f5)
+
+### Predicted Plant
+![image](https://github.com/VishalGowthaman/Mini-Project-Plant-Disease-Prediction-/assets/94165380/e053df99-8129-4d1a-b8bd-41e104504865)
+
+
+
+
+
+
 
